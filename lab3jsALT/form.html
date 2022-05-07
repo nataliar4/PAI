@@ -1,0 +1,60 @@
+<!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+
+  <body>
+    <div id="notifications" style="display: none;">
+    
+    </div>
+    <form name="dane_osobowe">
+      <table>
+        <tr>
+          <td>Imię</td>
+          <td><input type="text" id="f_imie"></td>
+          <td><span class="err" id="e_imie" /></td>
+        </tr>
+        
+        <tr>
+          <td>Nazwisko</td>
+          <td><input type="text" id="f_nazwisko"></td>
+          <td><span class="err" id="e_nazwisko" /></td>
+        </tr>
+
+        <tr>
+          <td>E-mail</td>
+          <td><input type="text" id="f_email"></td>
+          <td><span class="err" id="e_email" /></td>
+        </tr>
+
+        <tr>
+          <td>Data urodzenia</td>
+          <td><input type="date" max="" id="f_urodzenie"></td>
+        </tr>
+
+        <tr>
+          <td>Hasło</td>
+          <td><input type="password" id="f_haslo"></td>
+        </tr>
+
+        <tr>
+          <td>Powtórz hasło</td>
+          <td><input type="password" id="f_haslo2"></td>
+        </tr>
+
+        <tr><td>Opis</td><td><textarea rows="5" cols="15" maxlength="100" id="opis" required></textarea>
+        </td></tr>
+
+        <tr><td colspan="2">
+          <input id="button" type="submit" value="Zarejestruj się">
+          <!-- <button onclick="validate">Prześlij</button> -->
+        </td></tr>
+
+      </table>
+    </form>
+    <script src="form_check.js"></script>
+  </body>
+</html>

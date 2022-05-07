@@ -1,0 +1,14 @@
+.err {
+  color: red;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+#notifications {
+  border: 2px solid red;
+}
+
+#notifications > span {
+  padding: 3px;
+  color: red;
+}

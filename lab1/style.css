@@ -1,0 +1,53 @@
+li { list-style-type: square }
+
+#cena {
+  color: red;
+  font-weight: bold;
+}
+
+.wstep {
+  font-style: italic;
+}
+
+td > img {
+  border-style: solid;
+  border-color: blue;
+}
+img:hover {
+  border-style: solid;
+  border-color: red;
+}
+
+h1 + h2 {
+  letter-spacing: 5px;
+}
+
+td[colspan="2"] > p {
+  font-size: small;
+}
+
+p + p {
+  color: gray;
+}
+
+body {
+  background-image: url(book.png); 
+  background-repeat: repeat-y
+}
+
+h1 {
+  color:blue;
+}
+h1 {
+  color: green;
+}
+
+/* zostanie zastosowana ostatnia w kolejności reguła (nadpisze poprzednie) */
+
+/* w przypadku kolidujących reguł w pliku html i css zastosowana zostanie ta,
+która będzie ostatnia w pliku html (względem linku do pliku css) */
+
+/* niezależnie od kolejności w pliku html została zastosowana reguła z dopiskiem "!important" */
+
+/* zostają utrzymane reguły z poprzednich testów. Wykorzystano regułę z dopiskiem "!important",
+a w przypadku jego braku tę, która występowała ostatnia w pliku .html (czytając po kolei) */
